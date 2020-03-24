@@ -1,0 +1,36 @@
+PODS:
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - Masonry (1.1.0)
+  - MJRefresh (3.3.1)
+  - YJFoundation (1.0.8)
+  - YJUIKit (0.0.10):
+    - Masonry
+    - MJRefresh
+    - YJFoundation
+
+DEPENDENCIES:
+  - GoogleMaps
+  - YJUIKit
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - Masonry
+    - MJRefresh
+    - YJFoundation
+    - YJUIKit
+
+SPEC CHECKSUMS:
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  YJFoundation: 394d108ea6d39ec764fd54244880d0ca8105c5f0
+  YJUIKit: bacea900708a0c9491795c993c81bc9eb3c0c729
+
+PODFILE CHECKSUM: 6f6e1ec4178d63fed1c47272c4ea02518b58d431
+
+COCOAPODS: 1.8.4

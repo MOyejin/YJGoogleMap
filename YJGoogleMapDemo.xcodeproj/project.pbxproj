@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DAEE905A4B244CFC7400BC /* Pods_YJGoogleMapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD439FFB574F34E40735AF34 /* Pods_YJGoogleMapDemo.framework */; };
+		6CCEFAC72429B088004ABAC8 /* YJGoogleMapViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAC02429B088004ABAC8 /* YJGoogleMapViewViewModel.m */; };
+		6CCEFAC82429B088004ABAC8 /* YJGoogleMapViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAC32429B088004ABAC8 /* YJGoogleMapViewDelegate.m */; };
+		6CCEFAC92429B088004ABAC8 /* YJGoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAC62429B088004ABAC8 /* YJGoogleMapViewController.m */; };
+		6CCEFADF2429B16D004ABAC8 /* ESGoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFADE2429B16D004ABAC8 /* ESGoogleMapViewController.m */; };
+		6CCEFAE22429B1C0004ABAC8 /* ESGoogleMapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAE12429B1C0004ABAC8 /* ESGoogleMapViewModel.m */; };
+		6CCEFAE52429B1DB004ABAC8 /* ESGoogleMapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAE42429B1DB004ABAC8 /* ESGoogleMapDelegate.m */; };
+		6CD0FA1024299BB900709CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD0FA0F24299BB900709CA2 /* AppDelegate.m */; };
+		6CD0FA1824299BC200709CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD0FA1724299BC200709CA2 /* Assets.xcassets */; };
+		6CD0FA1B24299BC200709CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD0FA1924299BC200709CA2 /* LaunchScreen.storyboard */; };
+		6CD0FA1E24299BC200709CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD0FA1D24299BC200709CA2 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CCEFABF2429B088004ABAC8 /* YJGoogleMapViewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewViewModel.h; sourceTree = "<group>"; };
+		6CCEFAC02429B088004ABAC8 /* YJGoogleMapViewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewViewModel.m; sourceTree = "<group>"; };
+		6CCEFAC22429B088004ABAC8 /* YJGoogleMapViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewDelegate.h; sourceTree = "<group>"; };
+		6CCEFAC32429B088004ABAC8 /* YJGoogleMapViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewDelegate.m; sourceTree = "<group>"; };
+		6CCEFAC52429B088004ABAC8 /* YJGoogleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewController.h; sourceTree = "<group>"; };
+		6CCEFAC62429B088004ABAC8 /* YJGoogleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewController.m; sourceTree = "<group>"; };
+		6CCEFACA2429B0A7004ABAC8 /* YJGoogleMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJGoogleMap.h; sourceTree = "<group>"; };
+		6CCEFADD2429B16D004ABAC8 /* ESGoogleMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESGoogleMapViewController.h; sourceTree = "<group>"; };
+		6CCEFADE2429B16D004ABAC8 /* ESGoogleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESGoogleMapViewController.m; sourceTree = "<group>"; };
+		6CCEFAE02429B1C0004ABAC8 /* ESGoogleMapViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESGoogleMapViewModel.h; sourceTree = "<group>"; };
+		6CCEFAE12429B1C0004ABAC8 /* ESGoogleMapViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESGoogleMapViewModel.m; sourceTree = "<group>"; };
+		6CCEFAE32429B1DB004ABAC8 /* ESGoogleMapDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESGoogleMapDelegate.h; sourceTree = "<group>"; };
+		6CCEFAE42429B1DB004ABAC8 /* ESGoogleMapDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESGoogleMapDelegate.m; sourceTree = "<group>"; };
+		6CD0FA0B24299BB900709CA2 /* YJGoogleMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJGoogleMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD0FA0E24299BB900709CA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CD0FA0F24299BB900709CA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CD0FA1724299BC200709CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CD0FA1A24299BC200709CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CD0FA1C24299BC200709CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD0FA1D24299BC200709CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CD0FA442429AD8700709CA2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		6E0262C8A58212134283C0CF /* Pods-YJGoogleMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJGoogleMapDemo.debug.xcconfig"; path = "Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A5EE67D3AB5C20206FB39897 /* Pods-YJGoogleMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJGoogleMapDemo.release.xcconfig"; path = "Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AD439FFB574F34E40735AF34 /* Pods_YJGoogleMapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJGoogleMapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CD0FA0824299BB900709CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DAEE905A4B244CFC7400BC /* Pods_YJGoogleMapDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CCEFABB2429B088004ABAC8 /* YJGoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFABC2429B088004ABAC8 /* YJGoogleMapViewController */,
+			);
+			path = YJGoogleMap;
+			sourceTree = SOURCE_ROOT;
+		};
+		6CCEFABC2429B088004ABAC8 /* YJGoogleMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFABD2429B088004ABAC8 /* ViewModels */,
+				6CCEFAC42429B088004ABAC8 /* Controller */,
+				6CCEFACA2429B0A7004ABAC8 /* YJGoogleMap.h */,
+			);
+			path = YJGoogleMapViewController;
+			sourceTree = "<group>";
+		};
+		6CCEFABD2429B088004ABAC8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFABE2429B088004ABAC8 /* YJGoogleMapViewViewModel */,
+				6CCEFAC12429B088004ABAC8 /* YJGoogleMapViewDelegate */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6CCEFABE2429B088004ABAC8 /* YJGoogleMapViewViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFABF2429B088004ABAC8 /* YJGoogleMapViewViewModel.h */,
+				6CCEFAC02429B088004ABAC8 /* YJGoogleMapViewViewModel.m */,
+			);
+			path = YJGoogleMapViewViewModel;
+			sourceTree = "<group>";
+		};
+		6CCEFAC12429B088004ABAC8 /* YJGoogleMapViewDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFAC22429B088004ABAC8 /* YJGoogleMapViewDelegate.h */,
+				6CCEFAC32429B088004ABAC8 /* YJGoogleMapViewDelegate.m */,
+			);
+			path = YJGoogleMapViewDelegate;
+			sourceTree = "<group>";
+		};
+		6CCEFAC42429B088004ABAC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFAC52429B088004ABAC8 /* YJGoogleMapViewController.h */,
+				6CCEFAC62429B088004ABAC8 /* YJGoogleMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CCEFACB2429B0D7004ABAC8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFACE2429B122004ABAC8 /* RootController */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		6CCEFACC2429B0DB004ABAC8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6CD0FA0E24299BB900709CA2 /* AppDelegate.h */,
+				6CD0FA0F24299BB900709CA2 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6CCEFACD2429B0F8004ABAC8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6CD0FA1724299BC200709CA2 /* Assets.xcassets */,
+				6CD0FA1924299BC200709CA2 /* LaunchScreen.storyboard */,
+				6CD0FA1C24299BC200709CA2 /* Info.plist */,
+				6CD0FA1D24299BC200709CA2 /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6CCEFACE2429B122004ABAC8 /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFACF2429B122004ABAC8 /* ViewModels */,
+				6CCEFAD62429B122004ABAC8 /* Controller */,
+			);
+			path = RootController;
+			sourceTree = "<group>";
+		};
+		6CCEFACF2429B122004ABAC8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFAD02429B122004ABAC8 /* ESGoogleMapDelegate */,
+				6CCEFAD32429B122004ABAC8 /* ESGoogleMapViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6CCEFAD02429B122004ABAC8 /* ESGoogleMapDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFAE32429B1DB004ABAC8 /* ESGoogleMapDelegate.h */,
+				6CCEFAE42429B1DB004ABAC8 /* ESGoogleMapDelegate.m */,
+			);
+			path = ESGoogleMapDelegate;
+			sourceTree = "<group>";
+		};
+		6CCEFAD32429B122004ABAC8 /* ESGoogleMapViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFAE02429B1C0004ABAC8 /* ESGoogleMapViewModel.h */,
+				6CCEFAE12429B1C0004ABAC8 /* ESGoogleMapViewModel.m */,
+			);
+			path = ESGoogleMapViewModel;
+			sourceTree = "<group>";
+		};
+		6CCEFAD62429B122004ABAC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFADD2429B16D004ABAC8 /* ESGoogleMapViewController.h */,
+				6CCEFADE2429B16D004ABAC8 /* ESGoogleMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CD0FA0224299BB900709CA2 = {
+			isa = PBXGroup;
+			children = (
+				6CD0FA0D24299BB900709CA2 /* YJGoogleMapDemo */,
+				6CD0FA0C24299BB900709CA2 /* Products */,
+				92C65E43AA9F3E6AF2ABF493 /* Pods */,
+				7B9AFE6C5D8A10B1FF0EFB40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CD0FA0C24299BB900709CA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD0FA0B24299BB900709CA2 /* YJGoogleMapDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD0FA0D24299BB900709CA2 /* YJGoogleMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEFABB2429B088004ABAC8 /* YJGoogleMap */,
+				6CCEFACC2429B0DB004ABAC8 /* AppDelegate */,
+				6CCEFACB2429B0D7004ABAC8 /* Module */,
+				6CCEFACD2429B0F8004ABAC8 /* Resource */,
+			);
+			path = YJGoogleMapDemo;
+			sourceTree = "<group>";
+		};
+		7B9AFE6C5D8A10B1FF0EFB40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CD0FA442429AD8700709CA2 /* CoreMotion.framework */,
+				AD439FFB574F34E40735AF34 /* Pods_YJGoogleMapDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C65E43AA9F3E6AF2ABF493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E0262C8A58212134283C0CF /* Pods-YJGoogleMapDemo.debug.xcconfig */,
+				A5EE67D3AB5C20206FB39897 /* Pods-YJGoogleMapDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CD0FA0A24299BB900709CA2 /* YJGoogleMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD0FA2124299BC200709CA2 /* Build configuration list for PBXNativeTarget "YJGoogleMapDemo" */;
+			buildPhases = (
+				C11A1BCE71CC7A44030477B7 /* [CP] Check Pods Manifest.lock */,
+				6CD0FA0724299BB900709CA2 /* Sources */,
+				6CD0FA0824299BB900709CA2 /* Frameworks */,
+				6CD0FA0924299BB900709CA2 /* Resources */,
+				F8F7BFF7135D4C01ADBB2CE0 /* [CP] Embed Pods Frameworks */,
+				00D2AD42E2FA2C190005E73D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJGoogleMapDemo;
+			productName = YJGoogleMapDemo;
+			productReference = 6CD0FA0B24299BB900709CA2 /* YJGoogleMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CD0FA0324299BB900709CA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = EStrongerE023;
+				TargetAttributes = {
+					6CD0FA0A24299BB900709CA2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6CD0FA0624299BB900709CA2 /* Build configuration list for PBXProject "YJGoogleMapDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CD0FA0224299BB900709CA2;
+			productRefGroup = 6CD0FA0C24299BB900709CA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CD0FA0A24299BB900709CA2 /* YJGoogleMapDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CD0FA0924299BB900709CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD0FA1B24299BC200709CA2 /* LaunchScreen.storyboard in Resources */,
+				6CD0FA1824299BC200709CA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D2AD42E2FA2C190005E73D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11A1BCE71CC7A44030477B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJGoogleMapDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F7BFF7135D4C01ADBB2CE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CD0FA0724299BB900709CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCEFAE52429B1DB004ABAC8 /* ESGoogleMapDelegate.m in Sources */,
+				6CCEFAE22429B1C0004ABAC8 /* ESGoogleMapViewModel.m in Sources */,
+				6CCEFAC92429B088004ABAC8 /* YJGoogleMapViewController.m in Sources */,
+				6CD0FA1E24299BC200709CA2 /* main.m in Sources */,
+				6CCEFAC72429B088004ABAC8 /* YJGoogleMapViewViewModel.m in Sources */,
+				6CD0FA1024299BB900709CA2 /* AppDelegate.m in Sources */,
+				6CCEFAC82429B088004ABAC8 /* YJGoogleMapViewDelegate.m in Sources */,
+				6CCEFADF2429B16D004ABAC8 /* ESGoogleMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CD0FA1924299BC200709CA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD0FA1A24299BC200709CA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CD0FA1F24299BC200709CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CD0FA2024299BC200709CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CD0FA2224299BC200709CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0262C8A58212134283C0CF /* Pods-YJGoogleMapDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J26ST3TDCL;
+				INFOPLIST_FILE = YJGoogleMapDemo/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.estronger.YJGoogleMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CD0FA2324299BC200709CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5EE67D3AB5C20206FB39897 /* Pods-YJGoogleMapDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J26ST3TDCL;
+				INFOPLIST_FILE = YJGoogleMapDemo/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.estronger.YJGoogleMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CD0FA0624299BB900709CA2 /* Build configuration list for PBXProject "YJGoogleMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD0FA1F24299BC200709CA2 /* Debug */,
+				6CD0FA2024299BC200709CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD0FA2124299BC200709CA2 /* Build configuration list for PBXNativeTarget "YJGoogleMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD0FA2224299BC200709CA2 /* Debug */,
+				6CD0FA2324299BC200709CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CD0FA0324299BB900709CA2 /* Project object */;
+}
