@@ -245,7 +245,6 @@
 				6CD0FA0824299BB900709CA2 /* Frameworks */,
 				6CD0FA0924299BB900709CA2 /* Resources */,
 				F8F7BFF7135D4C01ADBB2CE0 /* [CP] Embed Pods Frameworks */,
-				00D2AD42E2FA2C190005E73D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,23 +300,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00D2AD42E2FA2C190005E73D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YJGoogleMapDemo/Pods-YJGoogleMapDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C11A1BCE71CC7A44030477B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
