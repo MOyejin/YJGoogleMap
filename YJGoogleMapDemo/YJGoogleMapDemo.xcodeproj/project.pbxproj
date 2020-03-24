@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		18DAEE905A4B244CFC7400BC /* Pods_YJGoogleMapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD439FFB574F34E40735AF34 /* Pods_YJGoogleMapDemo.framework */; };
-		6CCEFAC72429B088004ABAC8 /* YJGoogleMapViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAC02429B088004ABAC8 /* YJGoogleMapViewViewModel.m */; };
-		6CCEFAC82429B088004ABAC8 /* YJGoogleMapViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAC32429B088004ABAC8 /* YJGoogleMapViewDelegate.m */; };
-		6CCEFAC92429B088004ABAC8 /* YJGoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAC62429B088004ABAC8 /* YJGoogleMapViewController.m */; };
+		6CC89BC82429D19E000F5210 /* YJGoogleMapViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC89BC02429D19E000F5210 /* YJGoogleMapViewViewModel.m */; };
+		6CC89BC92429D19E000F5210 /* YJGoogleMapViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC89BC32429D19E000F5210 /* YJGoogleMapViewDelegate.m */; };
+		6CC89BCA2429D19E000F5210 /* YJGoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC89BC72429D19E000F5210 /* YJGoogleMapViewController.m */; };
 		6CCEFADF2429B16D004ABAC8 /* ESGoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFADE2429B16D004ABAC8 /* ESGoogleMapViewController.m */; };
 		6CCEFAE22429B1C0004ABAC8 /* ESGoogleMapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAE12429B1C0004ABAC8 /* ESGoogleMapViewModel.m */; };
 		6CCEFAE52429B1DB004ABAC8 /* ESGoogleMapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEFAE42429B1DB004ABAC8 /* ESGoogleMapDelegate.m */; };
@@ -21,13 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6CCEFABF2429B088004ABAC8 /* YJGoogleMapViewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewViewModel.h; sourceTree = "<group>"; };
-		6CCEFAC02429B088004ABAC8 /* YJGoogleMapViewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewViewModel.m; sourceTree = "<group>"; };
-		6CCEFAC22429B088004ABAC8 /* YJGoogleMapViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewDelegate.h; sourceTree = "<group>"; };
-		6CCEFAC32429B088004ABAC8 /* YJGoogleMapViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewDelegate.m; sourceTree = "<group>"; };
-		6CCEFAC52429B088004ABAC8 /* YJGoogleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewController.h; sourceTree = "<group>"; };
-		6CCEFAC62429B088004ABAC8 /* YJGoogleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewController.m; sourceTree = "<group>"; };
-		6CCEFACA2429B0A7004ABAC8 /* YJGoogleMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJGoogleMap.h; sourceTree = "<group>"; };
+		6CC89BBF2429D19E000F5210 /* YJGoogleMapViewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewViewModel.h; sourceTree = "<group>"; };
+		6CC89BC02429D19E000F5210 /* YJGoogleMapViewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewViewModel.m; sourceTree = "<group>"; };
+		6CC89BC22429D19E000F5210 /* YJGoogleMapViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewDelegate.h; sourceTree = "<group>"; };
+		6CC89BC32429D19E000F5210 /* YJGoogleMapViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewDelegate.m; sourceTree = "<group>"; };
+		6CC89BC42429D19E000F5210 /* YJGoogleMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMap.h; sourceTree = "<group>"; };
+		6CC89BC62429D19E000F5210 /* YJGoogleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGoogleMapViewController.h; sourceTree = "<group>"; };
+		6CC89BC72429D19E000F5210 /* YJGoogleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoogleMapViewController.m; sourceTree = "<group>"; };
 		6CCEFADD2429B16D004ABAC8 /* ESGoogleMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESGoogleMapViewController.h; sourceTree = "<group>"; };
 		6CCEFADE2429B16D004ABAC8 /* ESGoogleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESGoogleMapViewController.m; sourceTree = "<group>"; };
 		6CCEFAE02429B1C0004ABAC8 /* ESGoogleMapViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESGoogleMapViewModel.h; sourceTree = "<group>"; };
@@ -59,56 +59,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6CCEFABB2429B088004ABAC8 /* YJGoogleMap */ = {
+		6CC89BBC2429D19E000F5210 /* YJGoogleMapViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6CCEFABC2429B088004ABAC8 /* YJGoogleMapViewController */,
+				6CC89BC42429D19E000F5210 /* YJGoogleMap.h */,
+				6CC89BBD2429D19E000F5210 /* ViewModels */,
+				6CC89BC52429D19E000F5210 /* Controller */,
 			);
-			path = YJGoogleMap;
-			sourceTree = SOURCE_ROOT;
-		};
-		6CCEFABC2429B088004ABAC8 /* YJGoogleMapViewController */ = {
-			isa = PBXGroup;
-			children = (
-				6CCEFABD2429B088004ABAC8 /* ViewModels */,
-				6CCEFAC42429B088004ABAC8 /* Controller */,
-				6CCEFACA2429B0A7004ABAC8 /* YJGoogleMap.h */,
-			);
-			path = YJGoogleMapViewController;
+			name = YJGoogleMapViewController;
+			path = ../../YJGoogleMap/YJGoogleMapViewController;
 			sourceTree = "<group>";
 		};
-		6CCEFABD2429B088004ABAC8 /* ViewModels */ = {
+		6CC89BBD2429D19E000F5210 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				6CCEFABE2429B088004ABAC8 /* YJGoogleMapViewViewModel */,
-				6CCEFAC12429B088004ABAC8 /* YJGoogleMapViewDelegate */,
+				6CC89BBE2429D19E000F5210 /* YJGoogleMapViewViewModel */,
+				6CC89BC12429D19E000F5210 /* YJGoogleMapViewDelegate */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		6CCEFABE2429B088004ABAC8 /* YJGoogleMapViewViewModel */ = {
+		6CC89BBE2429D19E000F5210 /* YJGoogleMapViewViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				6CCEFABF2429B088004ABAC8 /* YJGoogleMapViewViewModel.h */,
-				6CCEFAC02429B088004ABAC8 /* YJGoogleMapViewViewModel.m */,
+				6CC89BBF2429D19E000F5210 /* YJGoogleMapViewViewModel.h */,
+				6CC89BC02429D19E000F5210 /* YJGoogleMapViewViewModel.m */,
 			);
 			path = YJGoogleMapViewViewModel;
 			sourceTree = "<group>";
 		};
-		6CCEFAC12429B088004ABAC8 /* YJGoogleMapViewDelegate */ = {
+		6CC89BC12429D19E000F5210 /* YJGoogleMapViewDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				6CCEFAC22429B088004ABAC8 /* YJGoogleMapViewDelegate.h */,
-				6CCEFAC32429B088004ABAC8 /* YJGoogleMapViewDelegate.m */,
+				6CC89BC22429D19E000F5210 /* YJGoogleMapViewDelegate.h */,
+				6CC89BC32429D19E000F5210 /* YJGoogleMapViewDelegate.m */,
 			);
 			path = YJGoogleMapViewDelegate;
 			sourceTree = "<group>";
 		};
-		6CCEFAC42429B088004ABAC8 /* Controller */ = {
+		6CC89BC52429D19E000F5210 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6CCEFAC52429B088004ABAC8 /* YJGoogleMapViewController.h */,
-				6CCEFAC62429B088004ABAC8 /* YJGoogleMapViewController.m */,
+				6CC89BC62429D19E000F5210 /* YJGoogleMapViewController.h */,
+				6CC89BC72429D19E000F5210 /* YJGoogleMapViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,7 +200,7 @@
 		6CD0FA0D24299BB900709CA2 /* YJGoogleMapDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6CCEFABB2429B088004ABAC8 /* YJGoogleMap */,
+				6CC89BBC2429D19E000F5210 /* YJGoogleMapViewController */,
 				6CCEFACC2429B0DB004ABAC8 /* AppDelegate */,
 				6CCEFACB2429B0D7004ABAC8 /* Module */,
 				6CCEFACD2429B0F8004ABAC8 /* Resource */,
@@ -347,12 +340,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CCEFAE52429B1DB004ABAC8 /* ESGoogleMapDelegate.m in Sources */,
+				6CC89BC92429D19E000F5210 /* YJGoogleMapViewDelegate.m in Sources */,
 				6CCEFAE22429B1C0004ABAC8 /* ESGoogleMapViewModel.m in Sources */,
-				6CCEFAC92429B088004ABAC8 /* YJGoogleMapViewController.m in Sources */,
+				6CC89BCA2429D19E000F5210 /* YJGoogleMapViewController.m in Sources */,
+				6CC89BC82429D19E000F5210 /* YJGoogleMapViewViewModel.m in Sources */,
 				6CD0FA1E24299BC200709CA2 /* main.m in Sources */,
-				6CCEFAC72429B088004ABAC8 /* YJGoogleMapViewViewModel.m in Sources */,
 				6CD0FA1024299BB900709CA2 /* AppDelegate.m in Sources */,
-				6CCEFAC82429B088004ABAC8 /* YJGoogleMapViewDelegate.m in Sources */,
 				6CCEFADF2429B16D004ABAC8 /* ESGoogleMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
