@@ -8,6 +8,6 @@ target 'YJGoogleMapDemo' do
   # Pods for YJGoogleMapDemo
 
 pod 'YJUIKit'
-#pod 'GoogleMaps' //Demo需要导入谷歌地图库
+#pod 'GoogleMaps' #Demo需要导入谷歌地图库
 
 end

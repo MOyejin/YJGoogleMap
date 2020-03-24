@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YJGoogleMap"
-spec.version      = "0.0.2"
+spec.version      = "0.0.3"
 spec.summary      = "YJGoogleMap for iOS"
 spec.homepage     = "https://github.com/MOyejin/YJGoogleMap"
 spec.license      = { :type => "MIT", :file => "LICENSE" }
