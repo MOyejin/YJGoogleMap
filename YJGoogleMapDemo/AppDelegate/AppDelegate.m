@@ -30,6 +30,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   
+//    #pod 'GoogleMaps' //Demo需要导入谷歌地图库
+    
     [GMSServices provideAPIKey:@"AIzaSyAzw7_bcXPfmiPyyt69s1GDr_7_2q7k8VE"];
 
     ESGoogleMapViewController *es_googleMapViewController = [[ESGoogleMapViewController alloc] init];
