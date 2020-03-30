@@ -41,7 +41,6 @@
 #import "YJTextField.h"
 #import "YJToolBarListView.h"
 #import "CALayer+YJLayer.h"
-#import "NSObject+YJObject.h"
 #import "UIAlertController+YJAlertController.h"
 #import "UIApplication+YJApplication.h"
 #import "UIBarButtonItem+YJBarButtonItem.h"

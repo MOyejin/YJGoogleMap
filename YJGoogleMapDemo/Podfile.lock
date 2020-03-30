@@ -2,7 +2,7 @@ PODS:
   - Masonry (1.1.0)
   - MJRefresh (3.3.1)
   - YJFoundation (1.0.8)
-  - YJUIKit (0.0.10):
+  - YJUIKit (0.0.11):
     - Masonry
     - MJRefresh
     - YJFoundation
@@ -21,7 +21,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   YJFoundation: 394d108ea6d39ec764fd54244880d0ca8105c5f0
-  YJUIKit: bacea900708a0c9491795c993c81bc9eb3c0c729
+  YJUIKit: 6b107d3c91277fce7dd3f5e0fd4467e3bdd286d2
 
 PODFILE CHECKSUM: aeed71f6639b9244eac043301ac7ec944060a27a
 

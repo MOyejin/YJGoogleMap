@@ -10,4 +10,9 @@
 
 @implementation ESGoogleMapDelegate
 
+- (void)mapView:(GMSMapView *)mapView willMove:(BOOL)gesture{
+    
+    
+}
+
 @end
