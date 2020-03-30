@@ -9,5 +9,8 @@
 #ifndef YJGoogleMap_h
 #define YJGoogleMap_h
 
+#import "YJGoogleMapViewController.h"
+#import "YJGoogleMapViewViewModel.h"
+#import "YJGoogleMapViewDelegate.h"
 
 #endif /* YJGoogleMap_h */

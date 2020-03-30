@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YJGoogleMapViewDelegate : NSObject
+@interface YJGoogleMapViewDelegate : NSObject<GMSMapViewDelegate>
 
 /**
  只读的YJGoogleMapViewViewModel
